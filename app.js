@@ -1,5 +1,4 @@
-function recogerDatos(e){
-    // e.preventDefault();
+function recogerDatos(){
 
 let input_name = document.querySelector("#name").value;
 let input_year = document.querySelector("#year").value;
