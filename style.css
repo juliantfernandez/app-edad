@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.app{
+    background-color: #F3DADD;
+    padding: 25px;
+}
+
+p{
+    color: #B09DA1;
+    font-weight: bold;
+}
+
+.welcome{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #BADCDD;
+padding: 25px;
+border-radius: 20px;
+margin: 25px;
+color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center .input-name{
+    margin: 25px;
+}
+
+.center .input-year{
+    margin: 25px;
+}
+.input-name{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-year{
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-name:focus{
+    outline: none;
+}
+
+.input-year:focus{
+    outline: none;
+}
+
+.btn{
+    border-radius: 25px;
+    border: 2px #BADCDD solid;
+    background-color: #BADCDD;
+    color: white;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: #B09DA1;
+    border: 2px #B09DA1 solid;
+    cursor: pointer;
+    transition: 1s;
+}
