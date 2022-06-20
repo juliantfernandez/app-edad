@@ -75,6 +75,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: #BADCDD;
     color: white;
     transition: 1s;
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
 }
 
 .btn:hover{
